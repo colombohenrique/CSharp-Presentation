@@ -8,12 +8,6 @@ C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Log
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\WPF.Login.pdb
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\bin\Debug\WPF.Login.dll.config
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\bin\Debug\WPF.Login.dll
-C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\LoginHelperPage.g.cs
-C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\LoginPage.g.cs
-C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\SignupPage.g.cs
-C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\LoginHelperPage.baml
-C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\LoginPage.baml
-C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\SignupPage.baml
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\WPF.Login.dll
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\bin\Debug\Haley.Extensions.dll
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\bin\Debug\Haley.Helpers.dll
@@ -57,9 +51,17 @@ C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Log
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\bin\Debug\System.Text.Json.xml
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\bin\Debug\System.ValueTuple.xml
-C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\WPF.Login.csproj.AssemblyReference.cache
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Dictionaries\LoginRD.baml
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\WPF.Login.csproj.CopyComplete
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\AuthenticationWindow.g.cs
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\AuthenticationWindow.baml
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\WelcomePage .g.cs
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\LoginHelperPage.g.cs
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\LoginPage.g.cs
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\SignupPage.g.cs
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\WelcomePage .baml
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\LoginHelperPage.baml
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\LoginPage.baml
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\SignupPage.baml
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\WPF.Login.csproj.AssemblyReference.cache

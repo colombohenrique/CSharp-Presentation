@@ -60,4 +60,4 @@ using System.Windows.Markup;
 [assembly: XmlnsDefinition("http://schemas.hpod9.com/login/wpf", "WPF.Login")]
 //[assembly: XmlnsDefinition("http://schemas.hpod9.com/login/wpf", "WPF.Login.ViewModels")]
 //[assembly: XmlnsDefinition("http://schemas.hpod9.com/login/wpf", "WPF.Login.Views")]
-[assembly: XmlnsDefinition("http://schemas.hpod9.com/login/wpf", "WPF.Login.Controls")]
+[assembly: XmlnsDefinition("http://schemas.hpod9.com/login/wpf", "WPF.Login.Views")]

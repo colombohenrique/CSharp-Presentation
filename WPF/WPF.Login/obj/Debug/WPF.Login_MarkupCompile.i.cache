@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 
-5-106090124
+6-46862205
 
-10977436643
+12847602213
 40-1962211988
-Views\AuthenticationWindow.xaml;Controls\LoginHelperPage.xaml;Controls\LoginPage.xaml;Controls\SignupPage.xaml;Dictionaries\LoginRD.xaml;
+Views\WelcomePage .xaml;Views\AuthenticationWindow.xaml;Views\LoginHelperPage.xaml;Views\LoginPage.xaml;Views\SignupPage.xaml;Dictionaries\LoginRD.xaml;
 
 True
 

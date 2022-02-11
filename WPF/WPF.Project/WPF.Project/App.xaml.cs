@@ -8,7 +8,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 using WPF.Login.Views;
-using WPF.Login.Controls;
+using WPF.Login;
+using Haley.IOC;
 
 namespace WPF.Project
 {
@@ -22,6 +23,7 @@ namespace WPF.Project
         protected override void OnStartup(StartupEventArgs e)
         {
             _ds = ContainerStore.Singleton.DI.Resolve<IDialogService>();
+            Entry.Initialize(ContainerStore.Singleton.GetFactory());
             base.OnStartup(e);
         }
 
@@ -33,8 +35,12 @@ namespace WPF.Project
             int tryCount = 0;
             while (!CredentialHolder.Singleton.IsAuthenticated)
             {
-                var _authWindow = new AuthenticationWindow();
-                _authWindow.ShowDialog();
+                var _result =ContainerStore.Singleton.Windows.ShowDialog("authMainWindow");
+                if (_result.HasValue && _result.Value)
+                {
+                    CredentialHolder.Singleton.IsAuthenticated = true;
+                    break;
+                }
                 tryCount++;
                 if (tryCount >= maxTries) break;
             }

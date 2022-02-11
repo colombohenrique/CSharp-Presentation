@@ -128,16 +128,21 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Views\WelcomePage .xaml.cs">
+      <DependentUpon>WelcomePage .xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ViewEnums.cs" />
+    <Compile Include="Entry.cs" />
     <Compile Include="Views\AuthenticationWindow.xaml.cs">
       <DependentUpon>AuthenticationWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\LoginHelperPage.xaml.cs">
+    <Compile Include="Views\LoginHelperPage.xaml.cs">
       <DependentUpon>LoginHelperPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\LoginPage.xaml.cs">
+    <Compile Include="Views\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\SignupPage.xaml.cs">
+    <Compile Include="Views\SignupPage.xaml.cs">
       <DependentUpon>SignupPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -168,19 +173,23 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Views\WelcomePage .xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\AuthenticationWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Controls\LoginHelperPage.xaml">
+    <Page Include="Views\LoginHelperPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Controls\LoginPage.xaml">
+    <Page Include="Views\LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Controls\SignupPage.xaml">
+    <Page Include="Views\SignupPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -194,7 +203,7 @@
     <Resource Include="Notes.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\background_login.PNG" />
+    <Resource Include="Views\Images\background_login.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\WPF.Project\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets" Condition="Exists('..\WPF.Project\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets')" />

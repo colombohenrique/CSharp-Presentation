@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPF.Login.Views"
         xmlns:hw="http://schemas.hpod9.com/haley/wpf"
         xmlns:hm="http://schemas.hpod9.com/haley/mvvm"
-        xmlns:ctrls="clr-namespace:WPF.Login.Controls"
+        xmlns:ctrls="clr-namespace:WPF.Login.Views"
         mc:Ignorable="d"
         Title="" Height="450" Width="800"
         WindowStartupLocation="CenterScreen"
@@ -32,9 +32,15 @@
         </Grid.ColumnDefinitions>
 
         <Grid >
-            <Image Source="WPF.Login/Images/background_login.PNG" 
+            <Image Source="Images/background_login.PNG" 
                    Stretch="UniformToFill"/>
 
+            <hw:ContainerViewer Width="300" Height="350"
+                ViewKey="{Binding CurrentView, NotifyOnSourceUpdated=True,UpdateSourceTrigger=PropertyChanged}">
+                <hw:ContainerViewer.WelcomeView>
+                    <ctrls:WelcomePage/>
+                </hw:ContainerViewer.WelcomeView>
+            </hw:ContainerViewer>
             <Grid Width="300" Height="350">
                 <ctrls:LoginPage/>
             </Grid>

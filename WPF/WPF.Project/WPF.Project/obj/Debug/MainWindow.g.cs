@@ -30,7 +30,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
 using WPF.Login;
-using WPF.Login.Controls;
+using WPF.Login.Views;
 using WPF.Project;
 
 
