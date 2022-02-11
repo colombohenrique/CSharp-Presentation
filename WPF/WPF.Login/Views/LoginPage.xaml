@@ -32,11 +32,11 @@
             <StackPanel Margin="20" VerticalAlignment="Center">
                 <ItemsControl Style="{StaticResource ItmsCtrlCustom}">
                     <TextBlock Text="Login" />
-                    <hw:PlainTextBox WaterMark="Login" Grid.Column="1"/>
+                    <hw:PlainTextBox Text="{Binding Login}"  WaterMark="Login" Grid.Column="1"/>
                 </ItemsControl>
                 <ItemsControl Style="{StaticResource ItmsCtrlCustom}">
                     <TextBlock Text="Password" />
-                    <hw:PlainPasswordBox WaterMark="Enter password" Grid.Column="1"/>
+                    <hw:PlainPasswordBox x:Name="PasswordBox"  WaterMark="Enter password" Grid.Column="1"/>
                 </ItemsControl>
                 <Grid Margin="5,10">
                     <hw:PlainCheckBox HorizontalAlignment="Left" Background="Beige" Content="Remember Me" 
@@ -47,7 +47,7 @@
                                    Foreground="White" FontSize="10" 
                                    VerticalAlignment="Center"
                                    CommandParameter="{Binding Source={x:Static local:ViewEnums.LoginHelperPage}}"
-                                    Command="{Binding CmdChangeView}"/>
+                                   Command="{Binding CmdChangeView}"/>
                 </Grid>
                 <StackPanel Margin="5,10" Orientation="Horizontal" HorizontalAlignment="Right">
                     <hw:PlainButton CornerRadius="5" Content="Sign Up" Width="90" Margin="5,0" 
@@ -55,6 +55,7 @@
                                     CommandParameter="{Binding Source={x:Static local:ViewEnums.SignupPage}}"
                                     Command="{Binding CmdChangeView}"/>
                     <hw:PlainButton CornerRadius="5" Content="Sign In" Width="90" 
+                                    CommandParameter="{Binding ElementName=PasswordBox}"
                                     Command="{Binding CmdSingIn}"/>
                 </StackPanel>
             </StackPanel>
