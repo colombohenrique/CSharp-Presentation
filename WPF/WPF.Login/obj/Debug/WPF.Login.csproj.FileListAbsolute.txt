@@ -8,11 +8,9 @@ C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Log
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\WPF.Login.pdb
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\bin\Debug\WPF.Login.dll.config
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\bin\Debug\WPF.Login.dll
-C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\AuthenticationWindow.g.cs
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\LoginHelperPage.g.cs
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\LoginPage.g.cs
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\SignupPage.g.cs
-C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\AuthenticationWindow.baml
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\LoginHelperPage.baml
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\LoginPage.baml
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Controls\SignupPage.baml
@@ -62,3 +60,6 @@ C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Log
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\WPF.Login.csproj.AssemblyReference.cache
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Dictionaries\LoginRD.baml
 C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\WPF.Login.csproj.CopyComplete
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\AuthenticationWindow.g.cs
+C:\Users\jhbco\source\github.com\colombohenrique\CSharp-Presentation\WPF\WPF.Login\obj\Debug\Views\AuthenticationWindow.baml

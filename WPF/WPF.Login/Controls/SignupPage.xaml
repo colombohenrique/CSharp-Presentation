@@ -4,9 +4,56 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF.Login.Controls"
+             xmlns:hw="http://schemas.hpod9.com/haley/wpf"
+             xmlns:hm="http://schemas.hpod9.com/haley/mvvm"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+             d:DesignHeight="450" d:DesignWidth="400">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/WPF.Login;component/Dictionaries/LoginRD.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Style TargetType="{x:Type TextBlock}">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Border CornerRadius="40" Background="#B2696969"
+                    Opacity="70">
+        <Grid>
+            <hw:PlainImage hw:Icon.Default="{StaticResource plus}" Height="40" Width="40"
+                               HorizontalAlignment="Center" VerticalAlignment="Top"
+                               Margin="0,-15"
+                               hw:Icon.DefaultColor="LightGray"
+                               hw:Hover.IsEnabled="False"/>
+            <StackPanel Margin="20" VerticalAlignment="Center">
+                <ItemsControl Style="{StaticResource ItmsCtrlCustom}">
+                    <TextBlock Text="Name" />
+                    <hw:PlainTextBox WaterMark="Name" Grid.Column="1"/>
+                </ItemsControl>
+                <ItemsControl Style="{StaticResource ItmsCtrlCustom}">
+                    <TextBlock Text="Email" />
+                    <hw:PlainTextBox WaterMark="Email" Grid.Column="1"/>
+                </ItemsControl>
+                <ItemsControl Style="{StaticResource ItmsCtrlCustom}">
+                    <TextBlock Text="Login" />
+                    <hw:PlainTextBox WaterMark="Login" Grid.Column="1"/>
+                </ItemsControl>
+                <ItemsControl Style="{StaticResource ItmsCtrlCustom}">
+                    <TextBlock Text="Password" />
+                    <hw:PlainPasswordBox WaterMark="Enter password" Grid.Column="1"/>
+                </ItemsControl>
+                <ItemsControl Style="{StaticResource ItmsCtrlCustom}">
+                    <TextBlock Text="Re-enter Password" />
+                    <hw:PlainPasswordBox WaterMark="Re-enter password" Grid.Column="1"/>
+                </ItemsControl>
+                <StackPanel Margin="5,10" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <hw:PlainButton CornerRadius="5" Content="Cancel" Width="90" Margin="5,0" Background="LightSlateGray" hw:Icon.HoverColor="Red"/>
+                    <hw:PlainButton CornerRadius="5" Content="Create Account" Width="90" hw:Icon.HoverColor="Green"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
 </UserControl>
